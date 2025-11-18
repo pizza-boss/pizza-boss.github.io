@@ -160,20 +160,7 @@
       transition: transform 4s cubic-bezier(0.22, 0.61, 0.25, 0.98);
     }
 
-    /* 포인터 (위쪽 삼각형) */
-    .pointer {
-      position: absolute;
-      top: 4%;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 0;
-      height: 0;
-      border-left: 12px solid transparent;
-      border-right: 12px solid transparent;
-      border-bottom: 20px solid var(--accent);
-      filter: drop-shadow(0 0 6px rgba(250, 204, 21, 0.7));
-      z-index: 10;
-    }
+
 
     /* 공 궤도 */
     .ball-orbit {
@@ -346,7 +333,7 @@
       <!-- 설명 영역 -->
       <div class="info-card">
         <div class="info-title">RULES · HOW TO PLAY</div>
-        <p><strong>SPIN</strong> 버튼을 누르면 실제 룰렛 이미지가 회전하고, 공도 함께 돌아갑니다. 몇 초 후 회전이 멈추면, 포인터(노란 삼각형)가 가리키는 숫자가 결과라고 생각하면 됩니다.</p>
+        <p><strong>SPIN</strong> 버튼을 누르면 실제 룰렛 이미지가 회전하고, 공도 함께 돌아갑니다. 몇 초 후 회전이 멈추면,결과가 나옵니다.</p>
         <p>숫자와 색은 자바스크립트로 랜덤 결정되며, 실제 돈이 걸린 도박 기능은 전혀 없습니다. 순수하게 연습/게임/장난용 룰렛입니다.</p>
         <ul>
           <li>· 한 번에 한 번씩만 스핀 가능</li>
